@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BalloonShopConfiguration">
+    <Position X="7.5" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQEAAgABAAAAAAAAAAAAAAAAECACABAgiBAAAIGAA=</HashCode>
+      <FileName>App_Code\BalloonShopConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CatalogAccess">
+    <Position X="2.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAhEIAJLIgAABIBAAAiAAAAAAAAIABAgIIAgAAg=</HashCode>
+      <FileName>App_Code\CatalogAccess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GenericDataAccess">
+    <Position X="5.25" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAEAEAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\GenericDataAccess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrdersAccess">
+    <Position X="7.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAIAAEAAAAAAAABAAAAABAAEEAAAACAAQAAAA=</HashCode>
+      <FileName>App_Code\OrdersAccess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShoppingCartAccess">
+    <Position X="5.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAARAAAAAAAAAAAAgAAAAgAEEEAQAAQAAAA=</HashCode>
+      <FileName>App_Code\ShoppingCartAccess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Utilities">
+    <Position X="10" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAEAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Utilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="DepartmentDetails">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\CatalogAccess.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CategoryDetails">
+    <Position X="5.25" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\CatalogAccess.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ProductDetails">
+    <Position X="2.25" Y="6.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAABIAAAAQAgAAAAAAAAAAQIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\CatalogAccess.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OrderInfo">
+    <Position X="10" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAARAAQAAIAgACAAAAAQAAAAAAAAAAEAAACIAA=</HashCode>
+      <FileName>App_Code\OrdersAccess.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
