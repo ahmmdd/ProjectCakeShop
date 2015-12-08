@@ -9,7 +9,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-  <title>BalloonShop</title>
+  <title>CakeShop</title>
     <style type="text/css">
         .auto-style1 {
             width: 6px;
@@ -37,11 +37,11 @@
           <uc2:DepartmentsList ID="DepartmentsList1" runat="server" />
                       </td>
                       <td>
-          <uc3:CategoriesList ID="CategoriesList1" runat="server" />
+          <uc4:SearchBox id="SearchBox2" runat="server">
+          </uc4:SearchBox>
                       </td>
                       <td>
-          <uc4:SearchBox id="SearchBox1" runat="server">
-          </uc4:SearchBox>
+              <uc3:CategoriesList ID="CategoriesList1" runat="server" />
                       </td>
                   </tr>
               </table>
@@ -79,6 +79,7 @@
         <td valign="top">
             &nbsp;</td>
       </tr>
+        
     </table>
   </form>
 </body>

@@ -8,13 +8,13 @@
 <%@ Register src="UserControls/CartSummary.ascx" tagname="CartSummary" tagprefix="uc6" %>
 <asp:Content ID="content" ContentPlaceHolderID="contentPlaceHolder" Runat="server">
   
-    <span class="CatalogTitle">Welcome to CakeShop! </span>
+    <span class="CatalogTitle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Welcome to CakeShop! </span>
   <br />
-  <span class="CatalogDescription">This week we have a special price for these fantastic products: 
-    <br />
+  <span class="CatalogDescription">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This week we have a special price for these fantastic products: <br />
   </span>
 <table style="width:100%;">
     <tr>
+        <td class="auto-style3"></td>
         <td class="auto-style1">
   <span class="CatalogDescription">
           <uc5:UserInfo ID="UserInfo1" runat="server" />
@@ -23,9 +23,6 @@
   <span class="CatalogDescription">
           <uc2:DepartmentsList ID="DepartmentsList1" runat="server" />
   </span></td>
-        <td class="auto-style3">
-          <uc3:CategoriesList ID="CategoriesList1" runat="server" />
-          </td>
         <td>
           <uc4:SearchBox id="SearchBox1" runat="server">
           </uc4:SearchBox>
@@ -33,38 +30,38 @@
     </tr>
 </table>
 <br />
-  <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
 <title>PPT Demo</title>
 <style type="text/css">
-.ppt-container, .ppt-container ul, .ppt-container li, .ppt-container img {
-margin : 0;
-padding : 0;
-border : 0;
-}
-.ppt-container {
-width : 464px; /*?????????????????width?height*/
-height : 295px;
-position : relative;
-        top: -5px;
-        left: 43px;
+    .ppt-container, .ppt-container ul, .ppt-container li, .ppt-container img {
+    border-style: none;
+        border-color: inherit;
+        border-width: 0;
+        margin: 0 0 0 244;
+        padding: 0;
     }
+.ppt-container {
+width : 752px; /*?????????????????width?height*/
+height : 328px;
+position : relative;
+}
 .ppt-container img {
-width : 99%;
-height : 90%;
+width : 93%;
+height : 100%;
 }
 .ppt-container .hide {
 display : none;
 }
 .ppt-container ul.image-list li {
 position : absolute;
-top : 36px;
-left : 60px;
-        width: 298px;
-        height: 229px;
+top : -1px;
+left : 258px;
+        width: 283px;
     }
 .ppt-container ul.button-list {
 list-style : none;
@@ -88,14 +85,11 @@ cursor : default;
 color : #FFF;
 background : #FF7000;
 }
-    .auto-style1 {
-        width: 140px;
-    }
     .auto-style2 {
-        width: 145px;
+        width: 160px;
     }
     .auto-style3 {
-        width: 123px;
+        width: 108px;
     }
 </style>
 <script type="text/javascript">
@@ -124,22 +118,30 @@ background : #FF7000;
 <body>
 <div class="ppt-container">
 <ul class="image-list">
-<li data-index="0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="Images/slider-img1.gif"/></li>
-<li data-index="1" class="hide"><img src="Images/slider-img2.jpg"/></li>
-<li data-index="2" class="hide"><img src="Images/slider-img3.png"/></li>
+<li data-index="0"><img src="Images/slider-img2.jpg"/></li>
+<li data-index="1" class="hide"><img src="Images/slider-img3.png"/></li>
+<li data-index="2" class="hide"><img src="Images/slider-img1.gif"/></li>
+
 </ul>
-<ul class="button-list">
+&nbsp;<ul class="button-list">
+        <li>&nbsp;&nbsp; </li>
 <li><span data-index="0" class="selected">1</span></li>
 <li><span data-index="1">2</span></li>
 <li><span data-index="2">3</span></li>
 </ul>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 </body>
 </html>
 
-  <uc1:ProductsList ID="ProductsList1" runat="server" />
-<br />
-          <uc6:CartSummary ID="CartSummary1" runat="server" />
-        </asp:Content>
+<table>
+    <tr>
+        <td><uc1:ProductsList ID="ProductsList1" runat="server" /></td>
+ <td><uc6:CartSummary ID="CartSummary1" runat="server" /></td>
+        <td></td>
+ </td><uc3:CategoriesList ID="CategoriesList1" runat="server" /></td>
+    </tr>
+</table>
+</asp:Content>
+
 
