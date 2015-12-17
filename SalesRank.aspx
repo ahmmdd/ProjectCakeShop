@@ -15,7 +15,7 @@
 
         <asp:GridView ID="GridView3" runat="server" AllowPaging="True" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" PageSize="5">
             <Columns>
-                <asp:CommandField ShowSelectButton="True" />
+                
                 <asp:BoundField DataField="ProductName" HeaderText="Product Name" SortExpression="ProductName" />
                 <asp:BoundField DataField="description" HeaderText="Product Description" SortExpression="description" />
                 <asp:BoundField DataField="Price" HeaderText="Price" SortExpression="Price" />
@@ -30,7 +30,7 @@
                     </ItemTemplate>
                 </asp:TemplateField>
             </Columns>
-            <SelectedRowStyle BackColor="#ADFF2F" />
+            
         </asp:GridView>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:BalloonShopConnectionString %>" SelectCommand="maxSales" SelectCommandType="StoredProcedure"></asp:SqlDataSource>
 
