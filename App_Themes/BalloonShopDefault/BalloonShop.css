@@ -4,7 +4,7 @@
   border-top: #01a647 1px solid;
   border-left: #01a647 1px solid;
   border-bottom: #01a647 1px solid;
-  background-color: #30b86e;
+  background-color: #800080;
   font-family: Verdana, Arial;
   font-weight: bold;
   font-size: 10pt;
@@ -18,7 +18,7 @@
   border-top: #01a647 1px solid;
   border-left: #01a647 1px solid;
   border-bottom: #01a647 1px solid;
-  background-color: #9fe1bb;
+  background-color: #DDA0DD;
   text-align: center;
 }
 a.DepartmentUnselected
@@ -34,7 +34,7 @@ a.DepartmentUnselected
 a.DepartmentUnselected:hover 
 { 
   padding-left: 5px;
-  color: #2e8b57;
+  color: #4B0082;
 } 
 a.DepartmentSelected
 { 
@@ -370,3 +370,6 @@ a.RecommendationLink:hover
 {  
   color: Red;
 }
+#container {
+        width:975px;margin-left:auto;margin-right:auto;
+        }

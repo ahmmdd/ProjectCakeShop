@@ -25,7 +25,8 @@
                         <asp:TextBox ID="TextBox1" runat="server" Text='<%# Bind("Thumbnail") %>'></asp:TextBox>
                     </EditItemTemplate>
                     <ItemTemplate>
-                        <asp:Image ID="Image2" runat="server" ImageUrl= '<%#"ProductImages/" +Eval("Thumbnail")%>' />
+                            <asp:Image ID="Image2" runat="server" ImageUrl= '<%#"ProductImages/" +Eval("Thumbnail")%>' />
+
                     </ItemTemplate>
                 </asp:TemplateField>
             </Columns>

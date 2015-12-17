@@ -6,8 +6,9 @@
 <%@ Register src="UserControls/CategoriesList.ascx" tagname="CategoriesList" tagprefix="uc3" %>
 <%@ Register src="UserControls/SearchBox.ascx" tagname="SearchBox" tagprefix="uc4" %>
 <%@ Register src="UserControls/CartSummary.ascx" tagname="CartSummary" tagprefix="uc6" %>
+
 <asp:Content ID="content" ContentPlaceHolderID="contentPlaceHolder" Runat="server">
-  
+    <div id="container" style="width:975px;margin-left:auto;margin-right:auto;">
 <table style="width:100%;">
     <tr>
         <td class="auto-style3"></td>
@@ -197,7 +198,7 @@ background : #FF7000;
 </tr>
 </table>
 
-
+</div>
 </asp:Content>
 
 
